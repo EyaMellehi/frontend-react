@@ -1,0 +1,74 @@
+/* Container for category details */
+.category-details-container {
+    width: 100%;
+    max-width: 800px; /* Limit the width */
+    margin: 30px auto; /* Center the container */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .category-details-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Category details text */
+  .category-details-container p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Image style */
+  .category-details-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Button styles */
+  .category-details-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover styles */
+  .category-details-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 480px) {
+    .category-details-container {
+      padding: 15px;
+    }
+  
+    .category-details-container p {
+      font-size: 16px;
+    }
+  
+    .category-details-container button {
+      font-size: 14px;
+    }
+  }
+  

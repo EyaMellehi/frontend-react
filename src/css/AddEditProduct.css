@@ -1,0 +1,81 @@
+/* Container for the Add/Edit Product form */
+.add-edit-product-container {
+    width: 100%;
+    max-width: 800px; /* Limit the width of the form */
+    margin: 30px auto; /* Center the container */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for the form */
+  .add-edit-product-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form fields container */
+  .add-edit-product-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields and select dropdown styles */
+  .add-edit-product-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .add-edit-product-container input,
+  .add-edit-product-container select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .add-edit-product-container input[type="number"] {
+    -webkit-appearance: none; /* Remove spinner for number input */
+    -moz-appearance: textfield;
+  }
+  
+  /* Button styles */
+  .add-edit-product-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover styles */
+  .add-edit-product-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 480px) {
+    .add-edit-product-container {
+      padding: 15px;
+    }
+  
+    .add-edit-product-container input,
+    .add-edit-product-container select {
+      font-size: 14px;
+    }
+  
+    .add-edit-product-container button {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.categories-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .categories-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .categories-table th,
+  .categories-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .categories-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .categories-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .categories-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .edit-btn,
+  .delete-btn,
+  .details-btn {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #005f73;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .details-btn {
+    background-color: #ffa500;
+  }
+  
+  .details-btn:hover {
+    background-color: #e69500;
+  }
+  

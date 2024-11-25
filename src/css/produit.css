@@ -1,0 +1,105 @@
+/* Container for the Products page */
+.products-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading for the products section */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Button to add a product */
+  .add-product-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the products table */
+  .products-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .products-table th,
+  .products-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .products-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .products-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .products-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Styling for action buttons (Edit, Delete, View Details) */
+  .edit-btn,
+  .delete-btn,
+  .details-btn {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit-btn:hover {
+    background-color: #005f73;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .details-btn {
+    background-color: #ffa500;
+  }
+  
+  .details-btn:hover {
+    background-color: #e69500;
+  }
+  
+  /* Image display for products */
+  .products-table img {
+    max-width: 50px;
+    border-radius: 5px;
+  }
+  
+  /* Style for empty photo and price cells */
+  .products-table td span {
+    color: #888;
+    font-style: italic;
+  }
+  
+  /* Optional: Additional styling for empty states */
+  .products-table td.no-data {
+    color: #bbb;
+    font-style: italic;
+  }
+  
